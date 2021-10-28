@@ -27,18 +27,18 @@ for (let n = 55; n >= 11; n -= 2) {
 console.log("-------------------------------------");
 console.log("4.");
 
-let n = 0;
-for (let total = 5; total <= 50; total++) {
-  n += total;
+let total = 0;
+for (let n = 5; n <= 50; n++) {
+  total += n;
 }
-console.log(n);
+console.log(total);
 
 // 5
 console.log("-------------------------------------");
 console.log("5.");
 
-n = 0;
-for (let total = 10; total <= 100; total += 10) {
-  n += total;
+total = 0;
+for (let n = 10; n <= 100; n += 10) {
+  total += n;
 }
-console.log(n);
+console.log(total);
